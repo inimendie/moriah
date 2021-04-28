@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(40, 159, 228);
+    box-shadow: 0 8px 8px -6px black;
+    position: fixed;
+    width: 1350px;
+    top: 0;
+    
+
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif, Geneva, Tahoma, sans-serif;
+    letter-spacing: 7px;
+
+}
+
+.alogo {
+    text-decoration: none;
+    color: white;
+} 
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navlinks-l {
+    list-style: none;
+
+}
+
+.navlinks-a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 3px;
+
+}
+
+.navlinks-a:hover, .active {
+    font-size: 16px;
+    opacity: 1;
+}
+
+.navlinks-a:active {
+    font-size: 16px;
+    opacity: 1;
+}
+
+
+.outlook {
+    background-image: url("image/imageh.jpg");
+    background-color:rgba(84, 142, 187, .712);
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    margin-top: 0px;
+}
+
+.houtlook {
+    text-align: center;
+    border: 2px none rgb(40, 159, 228);
+    font-size: 55px;
+    letter-spacing: 20px;
+    margin: 3px;
+    padding-top: 80px;
+    color: white;
+    
+
+}
+
+.outlook p {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.button {
+    background-color:rgb(40, 159, 228);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px auto;
+    width: 10%;
+       
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(0, 81, 255, .712);
+}
+
+.container {
+    display: flex;
+    
+}
+
+.container > div {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: 1px none rgba(0, 81, 255, .712);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 70px 10px 20px 10px;
+    box-shadow: 2px 8px 8px -3px grey;
+}
+
+.container > div h4 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color:rgba(0, 81, 255, .712);
+    font-family: cursive;
+}
+
+.footer {
+    background-color: rgba(0, 81, 255, .712);
+    height: 60vh;
+    padding: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.icon {
+    padding: 5px;
+    color: white;
+    padding-left: 50px;
+    margin-left: 350px;
+    border: 1px none blue;
+    width: 500px;
+    box-sizing: border-box;
+    line-height: 50px;
+   
+}
+
+.iconlink {
+    text-decoration: none;
+    color: white;
+}
+
+.iconhead{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 15px;
+   
+}
+
+.footercon {
+    padding: 30px;
+    color: white;
+    width: 500px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+
+}
+
+
+.footerconnote {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px none blue;
+    box-sizing: border-box;
+}
+
+.iconlink1 {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px 5px 10px 5px;
+    border: 1px none blue;
+    box-sizing: border-box;
+    
+}
+
+.phone {
+    padding: 5px;
+    padding-top: 5px;
+}
+
+.location{
+    margin: 0px;
+    padding: 10px;
+}
+
+.footlink {
+    display: block;
+    margin-left: 30px;
+    border: 1px none blue;
+    max-width: fit-content;
+    line-height: 50px;
+
+}
+
+.foothead{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
