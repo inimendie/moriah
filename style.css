@@ -12,7 +12,7 @@ nav {
     background-color: rgb(40, 159, 228);
     box-shadow: 0 8px 8px -6px black;
     position: fixed;
-    width: 1350px;
+    width: 100vw;
     top: 0;
     
 
